@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>고린도전서 1:10-17 분열을 넘어 온전한 연합으로 | 라온동행교회 말씀 인포그래픽</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=Noto+Serif+KR:wght@500;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            serif: ['"Noto Serif KR"', 'Georgia', 'serif'],
+          },
+          colors: {
+            primary: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#312e81',
+            },
+            accent: {
+              gold: '#d97706',
+              warm: '#f59e0b',
+              emerald: '#059669',
+              rose: '#e11d48',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Pretendard', sans-serif;
+      word-break: keep-all;
+    }
+    .serif-title {
+      font-family: 'Noto Serif KR', serif;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(226, 232, 240, 0.8);
+    }
+    .dark .glass-card {
+      background: rgba(30, 41, 59, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(51, 65, 85, 0.8);
+    }
+    .net-pattern {
+      background-image: radial-gradient(rgba(99, 102, 241, 0.15) 1.5px, transparent 1.5px);
+      background-size: 24px 24px;
+    }
+    .cross-glow {
+      box-shadow: 0 0 35px rgba(245, 158, 11, 0.35);
+    }
+    @keyframes pulseGlow {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.03); opacity: 1; }
+    }
+    .animate-pulse-slow {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-indigo-500 selection:text-white transition-colors duration-300">
+
+  <!-- Top Navigation & Actions -->
+  <header class="sticky top-0 z-50 glass-card border-b border-slate-200/80 shadow-sm transition-all">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <span class="w-8 h-8 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-bold text-sm shadow">
+          †
+        </span>
+        <div>
+          <span class="text-xs font-semibold tracking-wider text-indigo-600 uppercase">라온동행교회 말씀 인포그래픽</span>
+          <h1 class="text-sm sm:text-base font-bold text-slate-900 truncate">고린도전서 1:10-17 분열을 넘어 온전한 연합으로</h1>
+        </div>
+      </div>
+      <div class="flex items-center space-x-2">
+        <button onclick="window.print()" class="hidden sm:inline-flex items-center px-3 py-1.5 text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors">
+          <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+          인쇄 / PDF
+        </button>
+        <button id="themeToggle" class="p-2 text-slate-500 hover:text-slate-800 rounded-lg bg-slate-100 hover:bg-slate-200 transition-colors" title="다크 모드 토글">
+          <svg id="sunIcon" class="w-4 h-4 hidden" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"/></svg>
+          <svg id="moonIcon" class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-14 px-4 sm:px-6 bg-gradient-to-b from-indigo-950 via-slate-900 to-slate-900 text-white overflow-hidden">
+    <div class="absolute inset-0 opacity-15 net-pattern"></div>
+    <div class="absolute top-0 right-1/4 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-1/4 w-96 h-96 bg-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-4xl mx-auto text-center">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-semibold mb-6">
+        <span>설교일자 261108</span>
+        <span>•</span>
+        <span>고린도전서 강해 2</span>
+        <span>•</span>
+        <span>라온동행교회</span>
+      </div>
+
+      <h1 class="serif-title text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight text-white mb-6">
+        "그리스도께서 어찌 나뉘었느냐"<br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-indigo-200 to-indigo-400">
+          사람의 당파를 넘어 십자가의 연합으로
+        </span>
+      </h1>
+
+      <p class="max-w-2xl mx-auto text-slate-300 text-base sm:text-lg font-normal leading-relaxed mb-8">
+        모든 사람이 같은 취향과 성격을 가질 수는 없습니다. 그러나 우리가 누구에게 속했는지를 잊을 때, 친밀함은 당파가 되고 관계는 찢어집니다. 찢어진 그물을 깁듯 십자가 사랑으로 관계를 다시 잇는 복음의 삶.
+      </p>
+
+      <!-- Key Scripture Box -->
+      <div class="glass-card !bg-white/10 !border-white/15 rounded-2xl p-6 text-left max-w-2xl mx-auto shadow-2xl relative">
+        <div class="flex items-start space-x-3">
+          <div class="p-2 rounded-lg bg-amber-500/20 text-amber-300">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          </div>
+          <div>
+            <h3 class="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1">핵심 말씀 — 고린도전서 1장 10절</h3>
+            <p class="text-white text-base sm:text-lg serif-title font-semibold leading-relaxed">
+              “형제들아 내가 우리 주 예수 그리스도의 이름으로 너희를 권하노니 모두가 같은 말을 하고 너희 가운데 분쟁이 없이 같은 마음과 같은 뜻으로 온전히 합하라”
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12 space-y-16">
+
+    <!-- Section 1: 소그룹과 당파 — 무엇이 다른가 -->
+    <section class="space-y-6">
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="text-indigo-600 font-bold text-xs uppercase tracking-widest">Part 1. 식별하기</span>
+        <h2 class="serif-title text-2xl sm:text-3xl font-bold text-slate-900 mt-1">소그룹과 당파 — 무엇이 다른가?</h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          마음 맞는 이들과의 친밀한 교제는 자연스럽고 귀한 일입니다. 그러나 그 친밀함이 ‘배타성’과 ‘정치질’로 변질될 때 교회는 상처 입습니다.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+        <!-- Healthy Group -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-emerald-200 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-emerald-50 rounded-bl-full -z-0"></div>
+          <div class="relative z-10 space-y-4">
+            <div class="flex items-center space-x-3">
+              <span class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-lg">
+                ✓
+              </span>
+              <div>
+                <span class="text-xs font-bold text-emerald-600 uppercase">생명을 살리는 관계</span>
+                <h3 class="text-lg font-bold text-slate-900">건강한 성도의 소그룹</h3>
+              </div>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-700">
+              <li class="flex items-start">
+                <span class="text-emerald-500 mr-2 font-bold">•</span>
+                <span><strong>열린 문:</strong> 우리끼리 친해지더라도 새로운 사람이 언제든 편하게 들어올 수 있는 열린 공동체</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-emerald-500 mr-2 font-bold">•</span>
+                <span><strong>이해와 위로:</strong> 누군가의 아픔을 듣고 품어주며, 서로의 사정을 깊이 헤아리는 나눔</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-emerald-500 mr-2 font-bold">•</span>
+                <span><strong>다름의 존중:</strong> 나와 생각이나 성향이 달라도 하나님의 형상으로 귀하게 대우함</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-emerald-500 mr-2 font-bold">•</span>
+                <span><strong>그리스도 중심:</strong> 모임의 끝에 사람이 남지 않고 오직 주님의 은혜가 남음</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Faction / Politics -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-rose-200 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-rose-50 rounded-bl-full -z-0"></div>
+          <div class="relative z-10 space-y-4">
+            <div class="flex items-center space-x-3">
+              <span class="w-10 h-10 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center font-bold text-lg">
+                ✕
+              </span>
+              <div>
+                <span class="text-xs font-bold text-rose-600 uppercase">공동체를 병들게 하는</span>
+                <h3 class="text-lg font-bold text-slate-900">폐쇄적 당파 & ‘정치질’</h3>
+              </div>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-700">
+              <li class="flex items-start">
+                <span class="text-rose-500 mr-2 font-bold">•</span>
+                <span><strong>높은 성벽:</strong> 다른 사람은 비집고 들어오기 어렵고, 배타적 결속감만 커짐</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-rose-500 mr-2 font-bold">•</span>
+                <span><strong>험담의 공모:</strong> 한 사람을 함께 미워하고 비난하며 친밀함을 다지는 파괴적 대화</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-rose-500 mr-2 font-bold">•</span>
+                <span><strong>다름을 틀림으로:</strong> 우리 생각과 다르면 틀린 사람 취급하고 배척함</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-rose-500 mr-2 font-bold">•</span>
+                <span><strong>기득권 & 주도권:</strong> 모인 세(勢)의 힘으로 공동체의 주도권을 쥐고 내 뜻을 관철하려 함</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Self-Diagnostic Prompt -->
+      <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-5 text-center">
+        <p class="text-indigo-950 font-medium text-sm sm:text-base">
+          💡 <span class="font-bold">스스로에게 묻는 질문:</span> "우리는 모여서 지금 무슨 이야기를 하고 있습니까? 누군가를 진심으로 이해하고 돕기 위한 자리입니까, 아니면 누군가를 깎아내리며 우리끼리의 유대를 확인하는 자리입니까?"
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 2: 바울의 원어적 통찰 — '카테르티스메노이' (찢어진 그물을 깁다) -->
+    <section class="bg-gradient-to-br from-slate-900 to-indigo-950 rounded-3xl p-6 sm:p-10 text-white relative overflow-hidden shadow-xl">
+      <div class="relative z-10">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8 border-b border-indigo-800/60 pb-6">
+          <div>
+            <span class="text-amber-400 font-bold text-xs uppercase tracking-widest">Part 2. 원어의 깊은 뜻</span>
+            <h2 class="serif-title text-2xl sm:text-3xl font-bold mt-1">
+              "온전히 합하라" — <span class="text-amber-300">카테르티스메노이</span>
+            </h2>
+            <p class="text-slate-300 text-sm mt-1">헬라어 <span class="text-indigo-200 italic font-serif">katērtismenoi</span> : 마태복음 4:21에서 어부들이 찢어진 그물을 깁는 행위</p>
+          </div>
+          <div class="bg-white/10 border border-white/20 rounded-2xl px-5 py-3 text-center self-start md:self-auto">
+            <span class="block text-2xl font-black text-amber-300">Repair & Restore</span>
+            <span class="text-xs text-slate-300">갈등 방치가 아닌 직접 꿰매는 수고</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5 space-y-2">
+            <div class="text-amber-400 text-2xl font-bold">01</div>
+            <h4 class="font-bold text-base text-white">저절로 붙지 않는다</h4>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              찢어진 그물은 가만히 둔다고 저절로 아물지 않습니다. 상처와 갈등도 모른 척 덮어둔다고 해결되지 않으며 직접 다가가 실로 꿰매야 합니다.
+            </p>
+          </div>
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5 space-y-2">
+            <div class="text-amber-400 text-2xl font-bold">02</div>
+            <h4 class="font-bold text-base text-white">어디가 상했는지 살피기</h4>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              어느 매듭이 풀렸고 어디가 찢어졌는지 꼼꼼히 들여다보듯, 우리 관계에서 상대방의 어떤 마음이 상했는지 세심하게 경청해야 합니다.
+            </p>
+          </div>
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5 space-y-2">
+            <div class="text-amber-400 text-2xl font-bold">03</div>
+            <h4 class="font-bold text-base text-white">다름은 잘못이 아니다</h4>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              감정파와 논리파, 외향인과 내향인, 치밀형과 즉흥형은 서로를 보완하는 은사입니다. 차이가 문제가 아니라 그리스도를 잊은 것이 문제입니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- Interactive Metaphor Canvas/Visual -->
+        <div class="mt-8 bg-black/30 rounded-2xl p-6 border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div class="flex-1 space-y-2 text-center sm:text-left">
+            <h5 class="text-sm font-bold text-indigo-300 uppercase tracking-wider">공동체의 연합이란?</h5>
+            <p class="text-white text-base font-semibold">
+              "모든 사람이 똑같은 색깔과 성격을 갖는 획일화가 아닙니다.<br>
+              완전히 다른 우리가 <span class="text-amber-300 underline underline-offset-4">단 한 분 예수 그리스도</span>께 속해 있음을 인정하는 것입니다."
+            </p>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span class="px-4 py-2 rounded-xl bg-indigo-600/60 text-indigo-200 text-xs font-semibold">다양성(Diversity)</span>
+            <span class="text-amber-400 font-bold">+</span>
+            <span class="px-4 py-2 rounded-xl bg-amber-500/30 text-amber-300 text-xs font-semibold">십자가(Cross)</span>
+            <span class="text-amber-400 font-bold">=</span>
+            <span class="px-4 py-2 rounded-xl bg-emerald-500/40 text-emerald-200 text-xs font-bold">온전한 연합</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: 고린도의 네 파벌과 바울의 외침 -->
+    <section class="space-y-6">
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="text-indigo-600 font-bold text-xs uppercase tracking-widest">Part 3. 사람의 이름 vs 그리스도</span>
+        <h2 class="serif-title text-2xl sm:text-3xl font-bold text-slate-900 mt-1">고린도의 4개 파벌과 본질의 회복</h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          선생과 사역자에게 감사하는 것은 귀하지만, 그 이름을 힘입어 내 우월성을 주장할 때 교회는 갈라집니다.
+        </p>
+      </div>
+
+      <!-- 4 Parties Grid -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white rounded-xl p-5 border border-slate-200 text-center space-y-2 shadow-sm">
+          <div class="w-10 h-10 mx-auto rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-bold">
+            바
+          </div>
+          <h4 class="font-bold text-slate-900">“나는 바울파”</h4>
+          <p class="text-xs text-slate-500">개척자 바울과의 인연과 정통성, 초기 공로를 내세우며 분립</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 border border-slate-200 text-center space-y-2 shadow-sm">
+          <div class="w-10 h-10 mx-auto rounded-full bg-purple-100 text-purple-700 flex items-center justify-center font-bold">
+            아
+          </div>
+          <h4 class="font-bold text-slate-900">“나는 아볼로파”</h4>
+          <p class="text-xs text-slate-500">지적이고 유려한 언변과 철학적 설교에 매료되어 지적 우월감 추종</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 border border-slate-200 text-center space-y-2 shadow-sm">
+          <div class="w-10 h-10 mx-auto rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold">
+            게
+          </div>
+          <h4 class="font-bold text-slate-900">“나는 게바(베드로)파”</h4>
+          <p class="text-xs text-slate-500">수제자의 권위와 예루살렘의 전통, 유대적 배경을 앞세우며 차별</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 border border-slate-200 text-center space-y-2 shadow-sm">
+          <div class="w-10 h-10 mx-auto rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+            그
+          </div>
+          <h4 class="font-bold text-slate-900">“나는 그리스도파”</h4>
+          <p class="text-xs text-slate-500">가장 영적인 척 가장하며 주님의 이름으로 오히려 타인을 정죄함</p>
+        </div>
+      </div>
+
+      <!-- Modern Churches & Us -->
+      <div class="bg-amber-50/70 border border-amber-200 rounded-2xl p-6 sm:p-8">
+        <h3 class="text-amber-900 font-bold text-base sm:text-lg mb-4 flex items-center">
+          <svg class="w-5 h-5 mr-2 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+          오늘날 우리 안에 숨겨진 '기득권의 언어' 경계하기
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm text-amber-950">
+          <div class="bg-white/80 p-4 rounded-xl border border-amber-200/60">
+            <span class="font-bold text-amber-800 block mb-1">“내가 이 교회 얼마나 다녔는데”</span>
+            오랜 시간의 헌신은 감사한 것이나 다른 이의 의견을 누르는 권리가 될 수 없습니다.
+          </div>
+          <div class="bg-white/80 p-4 rounded-xl border border-amber-200/60">
+            <span class="font-bold text-amber-800 block mb-1">“내가 누구와 가까운 사람인데”</span>
+            지도자와의 친분은 섬김의 자리이지 공동체 안에서 영향력을 행사하는 특권이 아닙니다.
+          </div>
+          <div class="bg-white/80 p-4 rounded-xl border border-amber-200/60">
+            <span class="font-bold text-amber-800 block mb-1">“교회를 위해 내가 얼마나 애썼는데”</span>
+            나의 수고는 오직 주님의 은혜에 대한 감사일 뿐 내 뜻을 관철하는 거래 조건이 아닙니다.
+          </div>
+        </div>
+      </div>
+
+      <!-- The Ultimate Question from Paul -->
+      <div class="bg-slate-900 text-white rounded-2xl p-6 text-center space-y-3">
+        <span class="text-amber-400 font-bold text-xs uppercase tracking-widest">바울이 던지는 결론적 질문</span>
+        <blockquote class="serif-title text-xl sm:text-2xl font-bold text-white max-w-xl mx-auto">
+          "그리스도께서 어찌 나뉘었느냐?<br>
+          바울이 너희를 위하여 십자가에 못 박혔느냐?"
+        </blockquote>
+        <p class="text-slate-400 text-xs sm:text-sm">
+          나도 은혜로 살아났고, 내가 불편해하는 그 사람도 동일한 십자가 피값으로 구원받았습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 4: 분열의 상처 — "조용해졌다고 끝난 게 아닙니다" -->
+    <section class="space-y-6">
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="text-indigo-600 font-bold text-xs uppercase tracking-widest">Part 4. 관계와 회복</span>
+        <h2 class="serif-title text-2xl sm:text-3xl font-bold text-slate-900 mt-1">
+          의도와 상처의 간극 — <span class="text-indigo-600">"그때 목사님 눈빛은 아니었어요"</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          부목사 시절 담임 목사님과 장로님의 실화. 한 사람은 '자기 의도'를 설명하고 있었고, 한 사람은 '남겨진 상처'를 호소하고 있었습니다.
+        </p>
+      </div>
+
+      <!-- Interactive Anatomy of Conflict Card -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <!-- Side A: Intent -->
+          <div class="space-y-4 border-b md:border-b-0 md:border-r border-slate-200 pb-6 md:pb-0 md:pr-6">
+            <div class="flex items-center space-x-2">
+              <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm">A</span>
+              <h4 class="font-bold text-slate-900">말하는 자의 '의도' (Intent)</h4>
+            </div>
+            <p class="text-sm text-slate-600 leading-relaxed bg-slate-50 p-4 rounded-xl">
+              "나는 전혀 그런 나쁜 뜻으로 말한 게 아닙니다. 교회를 위해 바른 설명을 충분히 했다고 생각했습니다."
+            </p>
+            <div class="text-xs text-slate-500 space-y-1">
+              <p>• 자신의 논리와 정당성을 거듭 입증하려 함</p>
+              <p>• 내 의도가 깨끗하니 상대방이 오해를 풀어야 한다고 여김</p>
+            </div>
+          </div>
+
+          <!-- Side B: Impact / Wound -->
+          <div class="space-y-4">
+            <div class="flex items-center space-x-2">
+              <span class="w-8 h-8 rounded-lg bg-rose-100 text-rose-700 flex items-center justify-center font-bold text-sm">B</span>
+              <h4 class="font-bold text-slate-900">듣는 자의 '상처' (Impact)</h4>
+            </div>
+            <p class="text-sm text-slate-600 leading-relaxed bg-rose-50/60 p-4 rounded-xl text-rose-900">
+              "그때 무슨 논리적인 말을 하셨는지는 기억나지 않습니다. 하지만 당시 당신의 차가운 눈빛과 말투는 내게 큰 상처로 남았습니다."
+            </p>
+            <div class="text-xs text-slate-500 space-y-1">
+              <p>• 차가운 태도와 무시당한 감정이 마음에 각인됨</p>
+              <p>• 침묵하거나 떠남으로써 상황은 끝난 듯 보이나 상처는 남음</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bridge: Golden Words -->
+        <div class="mt-8 pt-6 border-t border-slate-100 bg-gradient-to-r from-indigo-50 via-purple-50 to-emerald-50 rounded-2xl p-6 text-center">
+          <span class="text-xs font-bold uppercase tracking-widest text-indigo-700 block mb-2">관계를 다시 잇는 화해의 문장</span>
+          <p class="serif-title text-base sm:text-xl font-bold text-slate-900">
+            "제 뜻은 이랬습니다. <br class="sm:hidden">
+            <span class="text-indigo-600">그런데 제 말이 어떻게 들리셨는지도 진심으로 듣고 싶습니다.</span>"
+          </p>
+          <p class="text-xs sm:text-sm text-slate-600 mt-2 max-w-xl mx-auto">
+            내 설명을 마치는 데서 멈추지 않고 상대방의 상처를 들을 때, 굳어있던 매듭이 비로소 풀리기 시작합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: 25년 목회의 교훈 & 십자가의 본질 -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- 25 Years Pastoral Lesson -->
+      <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider">목회 25년의 고백</span>
+          <h3 class="serif-title text-xl font-bold text-slate-900 mt-1 mb-4">
+            "결과만큼이나 그 과정에서<br>사람을 어떻게 대했는가가 중요합니다"
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">
+            일이 내 뜻대로 잘 마무리되었다고 해서 성공한 것이 아닙니다. 그 과정에서 누군가의 마음에 깊은 멍이 들고, 지친 한 영혼이 공동체에서 설 자리를 잃어버렸다면 주님 앞에서 가슴 깊이 돌아보아야 합니다.
+          </p>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            성결(Holiness)은 고상한 말에 있지 않고, <strong>내 자존심을 내려놓고 먼저 듣고 잘못을 시인하는 일상의 관계</strong> 속에서 비로소 증명됩니다.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500">
+          <span class="inline-block w-2 h-2 rounded-full bg-indigo-500 mr-2"></span>
+          라온동행교회 설교 말씀 중
+        </div>
+      </div>
+
+      <!-- Human (人) Character & Mutual Support -->
+      <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-amber-600 uppercase tracking-wider">섬김의 본질</span>
+          <h3 class="serif-title text-xl font-bold text-slate-900 mt-1 mb-4">
+            사람 인(人) — 서로 기대어 지탱하는 교회
+          </h3>
+          <div class="flex items-center space-x-4 mb-4">
+            <span class="text-5xl font-black text-amber-500/80 font-serif">人</span>
+            <p class="text-sm text-slate-600">
+              사람 인(人) 자는 두 사람이 서로 등을 기대어 버티고 있는 형상입니다. 신앙도 교회도 혼자가 아니라 함께 기댈 때 감당할 수 있습니다.
+            </p>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            매번 섬기는 사람만 섬기고 대접받는 사람만 머물면 누군가는 소리 없이 지칩니다. 지친 사람에게 "더 섬기라"고 다그치는 것이 아니라, <strong>그 사람 곁에 조용히 다가가 작은 몫을 나눠 드는 것</strong>이 참된 섬김입니다.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs text-amber-600 font-semibold">
+          <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          서로의 짐을 질 때 그리스도의 법을 성취합니다
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: 이번 주의 결단 & 실천 체크리스트 (Interactive) -->
+    <section class="bg-indigo-900 text-white rounded-3xl p-6 sm:p-10 shadow-xl space-y-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="text-amber-400 font-bold text-xs uppercase tracking-widest">Part 5. 삶으로 살아내기</span>
+        <h2 class="serif-title text-2xl sm:text-3xl font-bold mt-1 text-white">이번 한 주간의 4가지 구체적 실천</h2>
+        <p class="text-indigo-200 text-xs sm:text-sm mt-2">
+          "하나님이 나를 라온동행교회로 보내주셨는데, 나는 지금 어떤 모습으로 서 있습니까?"
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto" id="checklistContainer">
+        <!-- Item 1 -->
+        <label class="check-card flex items-start space-x-3 p-4 rounded-xl bg-white/10 border border-white/15 cursor-pointer hover:bg-white/15 transition-all">
+          <input type="checkbox" class="mt-1 w-5 h-5 rounded border-white/30 text-indigo-600 focus:ring-0 cursor-pointer">
+          <div class="flex-1">
+            <span class="font-bold text-sm block text-amber-300">01. 내 옳음의 설명 잠시 멈추기</span>
+            <p class="text-xs text-slate-200 mt-1">내 논리를 관철하려는 조급함을 내려놓고, 나와 생각이 다른 사람의 말에 먼저 귀를 기울이겠습니다.</p>
+          </div>
+        </label>
+
+        <!-- Item 2 -->
+        <label class="check-card flex items-start space-x-3 p-4 rounded-xl bg-white/10 border border-white/15 cursor-pointer hover:bg-white/15 transition-all">
+          <input type="checkbox" class="mt-1 w-5 h-5 rounded border-white/30 text-indigo-600 focus:ring-0 cursor-pointer">
+          <div class="flex-1">
+            <span class="font-bold text-sm block text-amber-300">02. 구체적으로 인정하고 사과하기</span>
+            <p class="text-xs text-slate-200 mt-1">자존심을 세우지 않고, 내 말과 태도로 인해 상처받았을 이에게 먼저 진심으로 사과하겠습니다.</p>
+          </div>
+        </label>
+
+        <!-- Item 3 -->
+        <label class="check-card flex items-start space-x-3 p-4 rounded-xl bg-white/10 border border-white/15 cursor-pointer hover:bg-white/15 transition-all">
+          <input type="checkbox" class="mt-1 w-5 h-5 rounded border-white/30 text-indigo-600 focus:ring-0 cursor-pointer">
+          <div class="flex-1">
+            <span class="font-bold text-sm block text-amber-300">03. 험담의 자리에서 거룩하게 돌아서기</span>
+            <p class="text-xs text-slate-200 mt-1">누군가를 비난하는 자리가 있다면 동조하지 않고 조용히 일어서거나 화제를 돌리며 기도하겠습니다.</p>
+          </div>
+        </label>
+
+        <!-- Item 4 -->
+        <label class="check-card flex items-start space-x-3 p-4 rounded-xl bg-white/10 border border-white/15 cursor-pointer hover:bg-white/15 transition-all">
+          <input type="checkbox" class="mt-1 w-5 h-5 rounded border-white/30 text-indigo-600 focus:ring-0 cursor-pointer">
+          <div class="flex-1">
+            <span class="font-bold text-sm block text-amber-300">04. 관계를 다시 잇는 언어 쓰기</span>
+            <p class="text-xs text-slate-200 mt-1">관계를 벌리는 가시 돋친 말이 아니라, 멀어진 이들의 손을 다시 맞잡아주는 따뜻한 말을 건네겠습니다.</p>
+          </div>
+        </label>
+      </div>
+
+      <!-- Reflection Input Box -->
+      <div class="max-w-xl mx-auto bg-white/5 border border-white/15 rounded-2xl p-5 space-y-3">
+        <label for="memoInput" class="block text-xs font-bold uppercase tracking-wider text-indigo-300">
+          ✍️ 나의 묵상 & 결단 한 줄 적기 (브라우저에 자동 저장)
+        </label>
+        <div class="flex gap-2">
+          <input type="text" id="memoInput" placeholder="이번 주 내가 먼저 손 내밀 사람이나 실천 다짐을 적어보세요..." class="flex-1 bg-white/10 border border-white/20 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-400">
+          <button onclick="saveMemo()" class="px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold rounded-xl text-sm transition-colors shadow">
+            저장
+          </button>
+        </div>
+        <p id="savedMemoDisplay" class="text-xs text-emerald-300 italic min-h-[1rem]"></p>
+      </div>
+    </section>
+
+    <!-- Section 7: 말의 대조표 (Words that divide vs Words that mend) -->
+    <section class="space-y-6">
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="text-indigo-600 font-bold text-xs uppercase tracking-widest">언어 생활 가이드</span>
+        <h2 class="serif-title text-2xl sm:text-3xl font-bold text-slate-900 mt-1">관계를 벌리는 말 VS 다시 잇는 말</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Divisive Words -->
+        <div class="bg-rose-50/50 border border-rose-200 rounded-2xl p-6 space-y-3">
+          <h4 class="font-bold text-rose-900 flex items-center">
+            <svg class="w-5 h-5 mr-2 text-rose-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/></svg>
+            관계를 더 벌리고 찢는 말
+          </h4>
+          <ul class="text-sm text-rose-800 space-y-2">
+            <li>• "내 말이 틀렸어? 다 맞는 말이잖아."</li>
+            <li>• "그 사람 원래 그렇잖아, 말해 뭐해."</li>
+            <li>• "내가 이 교회에 어떻게 했는데 나한테 이래?"</li>
+            <li>• "그 사람 생각은 잘못됐고, 우리 생각이 맞아."</li>
+          </ul>
+        </div>
+
+        <!-- Mending Words -->
+        <div class="bg-emerald-50/50 border border-emerald-200 rounded-2xl p-6 space-y-3">
+          <h4 class="font-bold text-emerald-900 flex items-center">
+            <svg class="w-5 h-5 mr-2 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            찢어진 관계를 다시 꿰매는 말
+          </h4>
+          <ul class="text-sm text-emerald-800 space-y-2">
+            <li>• "제 뜻은 이랬지만, 어떻게 들리셨는지도 듣고 싶습니다."</li>
+            <li>• "그 일로 마음이 많이 힘드셨겠네요. 미안합니다."</li>
+            <li>• "혼자 다 감당하지 마세요. 제가 도울 수 있는 작은 몫을 나눌게요."</li>
+            <li>• "우리가 다르지만, 주님 안에서 함께 기대어 갑시다."</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer & Confession -->
+    <footer class="pt-8 pb-12 border-t border-slate-200 text-center space-y-4">
+      <div class="inline-flex items-center space-x-2 text-indigo-600 font-bold text-sm">
+        <span>라온동행교회</span>
+        <span>•</span>
+        <span>성결과 연합의 공동체</span>
+      </div>
+      <p class="text-slate-500 text-xs max-w-md mx-auto leading-relaxed">
+        우리는 누구에게 속했습니까? 우리를 위해 십자가에 달리신 예수 그리스도께 속했습니다. 그 은혜를 힘입어 서로를 귀히 여기며 함께 걸어갑니다.
+      </p>
+      <div class="text-[11px] text-slate-400 pt-2">
+        본 인포그래픽은 261108 고린도전서 1:10-17 설교 말씀을 바탕으로 제작되었습니다.
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    // Theme toggle logic
+    const themeToggle = document.getElementById('themeToggle');
+    const sunIcon = document.getElementById('sunIcon');
+    const moonIcon = document.getElementById('moonIcon');
+
+    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+      sunIcon.classList.remove('hidden');
+      moonIcon.classList.add('hidden');
+    } else {
+      document.documentElement.classList.remove('dark');
+      sunIcon.classList.add('hidden');
+      moonIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      const isDark = document.documentElement.classList.contains('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      sunIcon.classList.toggle('hidden', !isDark);
+      moonIcon.classList.toggle('hidden', isDark);
+    });
+
+    // Memo storage logic
+    const memoInput = document.getElementById('memoInput');
+    const savedMemoDisplay = document.getElementById('savedMemoDisplay');
+
+    function loadMemo() {
+      const saved = localStorage.getItem('sermon_261108_memo');
+      if (saved) {
+        savedMemoDisplay.textContent = '✓ 저장된 묵상: "' + saved + '"';
+        memoInput.value = saved;
+      }
+    }
+
+    function saveMemo() {
+      const val = memoInput.value.trim();
+      if (val) {
+        localStorage.setItem('sermon_261108_memo', val);
+        savedMemoDisplay.textContent = '✓ 저장된 묵상: "' + val + '"';
+      }
+    }
+
+    loadMemo();
+  </script>
+</body>
+</html>
